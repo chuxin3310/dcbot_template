@@ -17,7 +17,9 @@ module.exports = {
             await interaction.reply(`抱歉，我想${n}應該不是正常的數字`);
             return;
         }
-        await interaction.reply(${a}`);
-        
+        await interaction.reply(`${a}`);
+        for (let i = 1; i <= 1; i++) {
+            interaction.followUp(`合作愉快`);
+        }
     },
 };
