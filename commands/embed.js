@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
 module.exports = {
-    data: new SlashCommandBuilder().setURL('https://youtu.be/1AIrZCJdsSo').setName("embed").setDescription("show an embed"),
+    data: new SlashCommandBuilder().setName("embed").setDescription("show an embed").setDescription("機器人全家死光"),
     async execute(client, interaction) {
         const embed = new EmbedBuilder().setTitle("I'm an Embed");
 
