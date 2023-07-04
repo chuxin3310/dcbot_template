@@ -62,7 +62,7 @@ function loadAllCommands(client, directory) {
         .catch(console.error);
 }
 
-/*
+
 const { Client, GatewayIntentBits } = require("discord.js");
 const observe = require("./dashboard/observe");
 
@@ -95,4 +95,4 @@ client.login(process.env.TOKEN);
 observe(client)
     .start()
     .then((url) => console.log(`你可以在 ${url} 觀察 Bot 的狀態`));
-*/
+
